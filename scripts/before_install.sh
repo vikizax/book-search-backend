@@ -6,7 +6,7 @@
 # nvm install 14.7.0
 
 #create our working directory if it doesnt exist
-DIR="/home/ec2-user/book-search/backend"
+DIR="/home/ec2-user/book-search"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists"
 else
