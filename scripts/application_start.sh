@@ -15,12 +15,10 @@ export NVM_DIR="$HOME/.nvm"
 npm install pm2 -g
 
 #install node modules
-cd /home/ec2-user/book-search
 echo "Installing backend node modules...."
 npm install
 
 #run build script
-cd /home/ec2-user/book-search
 echo "Running build script...."
 npm run build
 
