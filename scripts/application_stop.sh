@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/book-search/backend
+cd /home/ec2-user/book-search
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
